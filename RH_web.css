@@ -82,6 +82,8 @@ h3 {
     align-items: center;
 }
 
+
+
 img {
     /* this translates to make the photo the size of the container and adjust the height accordingly */
     width: 100%;
@@ -104,6 +106,9 @@ a {
     color: black;
 }
 
+.project_info {
+    display: flex;
+}
 footer {
     text-align: center;
     margin-top: 40px;
