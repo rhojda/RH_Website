@@ -50,15 +50,17 @@ body {
 
 .intro-text {
     margin-bottom: 50px;
+    gap: 10px;
 }
 
-.intro-text h2, h3 {
+h1 {
     margin: 0;
 }
 
 h3 {
     font-weight: 200;
     font-size: medium;
+    margin: 0;
 }
 
 .social-icons {
@@ -73,6 +75,18 @@ h3 {
 
 .linkedin-icon:hover {
     color: #00A0DC;
+}
+
+.behance-icon {
+    color: #333;
+}
+
+.behance-icon:hover {
+    color: #00A0DC;
+}
+
+.image-item-boiler-plate {
+    text-align: center;
 }
 
 .image-grid {
@@ -96,10 +110,7 @@ img {
 }
 */
 
-.case_TXT {
-    width: 70%;
-    text-align: start;
-}
+
 
 a {
     text-decoration: none;
@@ -109,6 +120,9 @@ a {
 .project_info {
     display: flex;
 }
+
+
+
 footer {
     text-align: center;
     margin-top: 40px;
