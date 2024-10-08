@@ -1,5 +1,5 @@
 body {
-    font-family: "Playfair Display", serif;
+    font-family: "Inter";
     font-optical-sizing: auto;
     line-height: 1.6;
     margin: 0;
@@ -51,6 +51,39 @@ body {
 .intro-text {
     margin-bottom: 50px;
     gap: 10px;
+    position: relative;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.intro-text:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+  }
+
+.intro-text:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+mark {
+    background-color: pink;
+}
+
+.intro-text {
+    text-align: center;
 }
 
 h1 {
@@ -63,25 +96,18 @@ h3 {
     margin: 0;
 }
 
-.social-icons {
+.icons {
+    margin-top: 10px;
+}
+
+.social-icon {
     font-size: 24px;
     transition: color 0.3s ease;
     margin-bottom: 20px;
-}
-
-.linkedin-icon {
     color: #333;
 }
 
-.linkedin-icon:hover {
-    color: #00A0DC;
-}
-
-.behance-icon {
-    color: #333;
-}
-
-.behance-icon:hover {
+.social-icon:hover {
     color: #00A0DC;
 }
 
